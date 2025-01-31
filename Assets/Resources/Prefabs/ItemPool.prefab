@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3839955721525626492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3839955721525626498}
+  - component: {fileID: 3839955721525626493}
+  m_Layer: 0
+  m_Name: ItemPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3839955721525626498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839955721525626492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3839955721525626493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839955721525626492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 330e23cee74e80746a81fe7b34aa4b74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 9371e7b07ff235542a3c06d2fc5aba04, type: 2}
+  - {fileID: 11400000, guid: 06fc31d4b17e16e40969e7695ddd795c, type: 2}
+  - {fileID: 11400000, guid: d58b8d54cafb34440af9c85e1b3185e9, type: 2}
+  - {fileID: 11400000, guid: afc747ea57ecbba45ab8551c1592fc59, type: 2}
+  - {fileID: 11400000, guid: caaa3a5cc20a1734d8599417e7e4618d, type: 2}
+  - {fileID: 11400000, guid: e00cb85a576c2d14f8a6dce132a617a3, type: 2}
+  - {fileID: 11400000, guid: 1c05e9ab31b3fb9469ab480f4d053afd, type: 2}
+  - {fileID: 11400000, guid: a729851f666f8af45914f258efab1250, type: 2}
+  - {fileID: 11400000, guid: 06712f2ceb5e97e46923a9b2649a590e, type: 2}
+  - {fileID: 11400000, guid: aa619597de727584085e8994133419c1, type: 2}
+  offset: {x: 0, y: 0.5, z: 0}

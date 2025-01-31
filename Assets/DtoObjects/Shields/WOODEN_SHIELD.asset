@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc5339121a0cc745890572e88d24a46, type: 3}
+  m_Name: WOODEN_SHIELD
+  m_EditorClassIdentifier: 
+  ItemType: 2
+  ItemRarity: 0
+  ItemEffect: 5
+  ItemTier: 0
+  Name: WOODEN_SHIELD
+  Sprite: {fileID: 21300000, guid: 65d96844d9b78684c957847c798609d4, type: 3}
+  DropSprite: {fileID: 21300000, guid: 2620866804a78ce4a8e078e8605ac69a, type: 3}
+  Price: 50
+  ItemGo: {fileID: 2920004334093745533, guid: 4d9038e10ae103b4ab126aec969d364a, type: 3}
+  CritChance: 0
+  MinDamage: 0
+  MaxDamage: 0
+  CritPercent: 0
+  LastWorldPos: {x: 2.996, y: 0.287, z: 1.0020001}

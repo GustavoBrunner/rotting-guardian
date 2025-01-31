@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc5339121a0cc745890572e88d24a46, type: 3}
+  m_Name: IRON SHIELD
+  m_EditorClassIdentifier: 
+  ItemType: 2
+  ItemRarity: 1
+  ItemEffect: 10
+  ItemTier: 0
+  Name: IRON SHIELD
+  Sprite: {fileID: 21300000, guid: a6dd3d0b42d35d64f8621052e959ab1a, type: 3}
+  DropSprite: {fileID: 21300000, guid: 70eb593e779d9674abe3f0fe18578d9c, type: 3}
+  Price: 50
+  ItemGo: {fileID: 2920004334093745533, guid: 652ee5e0ae1833a4f957cfc7aa47f92f, type: 3}
+  CritChance: 0
+  MinDamage: 0
+  MaxDamage: 0
+  CritPercent: 0
+  LastWorldPos: {x: 0, y: 0, z: 0}

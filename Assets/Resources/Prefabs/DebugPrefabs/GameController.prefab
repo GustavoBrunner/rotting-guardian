@@ -1,0 +1,172 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2313908585405852011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2313908585405851925}
+  - component: {fileID: 2313908585405852010}
+  - component: {fileID: 3302157276586627047}
+  - component: {fileID: 2895846940208118068}
+  - component: {fileID: 6449895027115764473}
+  - component: {fileID: 6244243080101054701}
+  m_Layer: 0
+  m_Name: GameController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2313908585405851925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313908585405852011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.3873713, y: 2.0347052, z: -7.390357}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2313908585405852010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313908585405852011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712f5cd399a5f60489a733ce5b5cb382, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemiesCanAct: 0
+  Cooldown: 0.71
+  TurnEnemies: []
+  PlayerCombat: {fileID: 0}
+  CombatController: {fileID: 0}
+--- !u!114 &3302157276586627047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313908585405852011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64d66937afa889649b74a10861d90ba2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <IsCombatPhase>k__BackingField: 0
+--- !u!114 &2895846940208118068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313908585405852011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30f12a7a37cd77748926a868e52d1e29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6449895027115764473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313908585405852011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1bacab1247fef4e87e23ebde0568ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <IsNpcFound>k__BackingField: 0
+  _gold: 0
+  Cam: {fileID: 0}
+  StartPos: {x: 0, y: 0, z: 0}
+  NpcPos: {x: -2, y: 0, z: 13}
+  FirstToSec: {x: -14, y: 0, z: 39}
+  SecToFirst: {x: -14, y: 0, z: 17}
+  SecToThird: {x: 4, y: 0, z: 31}
+  ThirdToSec: {x: 2, y: 0, z: 31}
+  Rotation: {x: 0, y: 0, z: 0, w: 0}
+  Player: {fileID: 7701730609985825495, guid: 71e7866b816f4be45b4072735b11cfbf, type: 3}
+  FirstPhase: {fileID: 875600893473613622, guid: 2e42c46925dc2d445ac054fcba621827, type: 3}
+  SecondPhase: {fileID: 6996083159786612804, guid: e37a90540ae370048ab89919ac0497e2, type: 3}
+  ThirdPhase: {fileID: 7291171643126139662, guid: ef2e80ca66f3f1c4280b26f6ef09667a, type: 3}
+  CurrentPhase: {fileID: 0}
+  EnemyKilled: []
+  Lv1EnemyPrefab: {fileID: 0}
+  Lv2EnemyPrefab: {fileID: 0}
+  CurrentEnemiesPrefab: {fileID: 0}
+--- !u!114 &6244243080101054701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2313908585405852011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f6fad6b3660cc54aa87c311ba386acd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PlayerAttackEvent>k__BackingField:
+    Guid:
+      Data1: -1199203480
+      Data2: 1284041264
+      Data3: -1434796640
+      Data4: -1588652581
+    Path: event:/Combat/Player/Player_SuccessHit_01
+  <EnemyAttackEvent>k__BackingField:
+    Guid:
+      Data1: 371438314
+      Data2: 1210067784
+      Data3: 655710393
+      Data4: 903476248
+    Path: event:/Combat/Enemy/Enemy02_SuccessHit
+  <MissedAttackEvent>k__BackingField:
+    Guid:
+      Data1: -942257993
+      Data2: 1121614753
+      Data3: 1978763136
+      Data4: 786657723
+    Path: event:/Combat/Player/Player_MissHit_01
+  <PlayerStepsEvent>k__BackingField:
+    Guid:
+      Data1: 455011513
+      Data2: 1080205223
+      Data3: 423300244
+      Data4: -1098199341
+    Path: event:/Exploration/Player/Player_Footsteps
+  <TorchSoundEvent>k__BackingField:
+    Guid:
+      Data1: 1440682702
+      Data2: 1299325857
+      Data3: 119585678
+      Data4: 106798921
+    Path: event:/Exploration/Ambience/Torch_Loop_3D
+  <AmbienceSongEvent>k__BackingField:
+    Guid:
+      Data1: 1466107857
+      Data2: 1108217956
+      Data3: 1714201277
+      Data4: 642482300
+    Path: event:/Ambience/Ambience_Loop_2D
+  <MusicEvent>k__BackingField:
+    Guid:
+      Data1: 1522753437
+      Data2: 1311355375
+      Data3: -1714739019
+      Data4: 416515926
+    Path: event:/Music/Music01-Level01

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bc5339121a0cc745890572e88d24a46, type: 3}
+  m_Name: LUMBERJACK
+  m_EditorClassIdentifier: 
+  ItemType: 0
+  ItemRarity: 0
+  ItemEffect: 10
+  ItemTier: 0
+  Name: 
+  Sprite: {fileID: 21300000, guid: e2b03816234cf9b42aafc72fe8c4b903, type: 3}
+  DropSprite: {fileID: 21300000, guid: 888df0092fcfd944b8b81a400937bcd3, type: 3}
+  Price: 50
+  ItemGo: {fileID: 2920004334093745533, guid: ec5ef46035d4db74d8a5a298d22d84ab, type: 3}
+  CritChance: 2
+  MinDamage: 6
+  MaxDamage: 10
+  CritPercent: 0
+  LastWorldPos: {x: 0, y: 0, z: 0}

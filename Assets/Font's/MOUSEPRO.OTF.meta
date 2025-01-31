@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 2d3f7706d1485f34089f665966565a53
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Mouse Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f3bfc58c17690184892dbd5ca8526464, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
